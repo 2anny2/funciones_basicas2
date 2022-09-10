@@ -1,9 +1,5 @@
 #1 Cuenta regresiva crea una función que acepte un número como entrada. Devuelve una lista nueva que cuente de uno en uno, desde el número (como elemento 0) hasta 0 (como último elemento). 
 #Ejemplo: countdown(5) debería devolver [5,4,3,2,1,0]
-from dataclasses import dataclass
-from unittest import result
-from winreg import REG_NOTIFY_CHANGE_ATTRIBUTES
-
 
 def countdown (num):
     list = []
